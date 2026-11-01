@@ -1,8 +1,8 @@
 # 🚀 Himanshu Kumar — Personal Portfolio
 
-[![Portfolio Website](https://img.shields.io/badge/Portfolio-Live%20Demo-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://food-mania-kohl.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kumarhimanshu3132/Himanshu-Portfolio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/himanshu-kumar31)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kumarhimanshu3132)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kumarhimanshu3132@gmail.com)
 
 A modern, high-performance personal portfolio website built with clean semantic HTML5, modern CSS3 (Neo-Luxe Glassmorphism & custom CSS variables), and vanilla ES6+ JavaScript. Showcasing software engineering projects, full-stack web applications (MERN), interactive web games, academic foundations at Marwadi University, and verified credentials.
 
