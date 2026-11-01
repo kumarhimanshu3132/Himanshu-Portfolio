@@ -727,21 +727,21 @@ function initContactForm() {
         },
         body: JSON.stringify(payload)
       })
-      .then(res => res.json())
-      .then(data => {
-        submitBtn.innerHTML = originalText;
-        submitBtn.disabled = false;
-        showToast('Message sent! It will arrive in your Gmail (kumarhimanshu3132@gmail.com).', 'success');
-        form.reset();
-      })
-      .catch(err => {
-        submitBtn.innerHTML = originalText;
-        submitBtn.disabled = false;
-        // Fallback to mailto
-        const mailtoUrl = `mailto:kumarhimanshu3132@gmail.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent("Sender Name: " + payload.name + "\nSender Email: " + payload.email + "\n\nMessage:\n" + payload.message)}`;
-        window.location.href = mailtoUrl;
-        showToast('Redirecting to your email client to send message...', 'info');
-      });
+        .then(res => res.json())
+        .then(data => {
+          submitBtn.innerHTML = originalText;
+          submitBtn.disabled = false;
+          showToast('Thank you! Your message has been sent successfully. Himanshu will get back to you soon.', 'success');
+          form.reset();
+        })
+        .catch(err => {
+          submitBtn.innerHTML = originalText;
+          submitBtn.disabled = false;
+          // Fallback to mailto
+          const mailtoUrl = `mailto:kumarhimanshu3132@gmail.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent("Sender Name: " + payload.name + "\nSender Email: " + payload.email + "\n\nMessage:\n" + payload.message)}`;
+          window.location.href = mailtoUrl;
+          showToast('Opening your email client to send message...', 'info');
+        });
     }
   });
 
