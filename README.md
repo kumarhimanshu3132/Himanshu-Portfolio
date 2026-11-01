@@ -86,3 +86,4 @@ To run this portfolio locally:
 ---
 
 &copy; 2026 Himanshu Kumar. Built with passion, React principles & clean code.
+
